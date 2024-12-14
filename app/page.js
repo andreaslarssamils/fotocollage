@@ -11,7 +11,7 @@ export default function Home() {
       <div className="container">
         <MasonryPhotoAlbum
           photos={photos}
-          column={3}
+
         />
       </div>
     </>
