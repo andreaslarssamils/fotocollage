@@ -139,10 +139,38 @@ const photos = [
     alt: 'Bild 81',
   },
   {
-    src: '/8F4A09FF-1E3C-44E3-AFE3-F33320C4E1ED.jpeg',
+    src: '/1.JPG',
     width: 1080,
     height: 800,
-    alt: 'Bild 81',
+    alt: 'Bild 82',
+  },
+
+  {
+    src: '/2.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 83',
+  },
+
+  {
+    src: '/3.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 84',
+  },
+
+  {
+    src: '/4.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 85',
+  },
+
+  {
+    src: '/5.JPG',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 86',
   },
 ];
 
