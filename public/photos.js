@@ -5,13 +5,13 @@ const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 const photos = [
   { src: '/alexislovelyfreya.jpeg', width: 1080, height: 1000, alt: 'Bild 1' },
   { src: '/IMG_3120.jpeg', width: 1080, height: 1000, alt: 'Bild 2' },
-
+  { src: '/IMG_4086.jpeg', width: 1080, height: 1000, alt: 'Bild 3' },
   { src: '/pappar.JPG', width: 1080, height: 1000, alt: 'Bild 4' },
   { src: '/farfar.png', width: 1080, height: 800, alt: 'Bild 5' },
   { src: '/dance.png', width: 1080, height: 800, alt: 'Bild 6' },
   { src: '/festiv.jpeg', width: 1080, height: 800, alt: 'Bild 7' },
   { src: '/freya.jpeg', width: 1080, height: 800, alt: 'Bild 8' },
-
+  { src: '/IMG_5311.jpeg', width: 1080, height: 800, alt: 'Bild 9' },
   { src: '/IMG_0031.jpeg', width: 1080, height: 800, alt: 'Bild 10' },
   { src: '/IMG_0044.jpeg', width: 1080, height: 800, alt: 'Bild 11' },
   { src: '/IMG_0060.jpeg', width: 1080, height: 800, alt: 'Bild 12' },
@@ -40,7 +40,7 @@ const photos = [
   { src: '/IMG_0956.JPG', width: 1080, height: 800, alt: 'Bild 35' },
   { src: '/IMG_0980.JPG', width: 1080, height: 800, alt: 'Bild 36' },
   { src: '/IMG_1133.PNG', width: 1080, height: 800, alt: 'Bild 37' },
-
+  { src: '/IMG_5312.jpeg', width: 1080, height: 800, alt: 'Bild 38' },
   { src: '/IMG_1158.JPG', width: 1080, height: 800, alt: 'Bild 39' },
   { src: '/IMG_1164.JPG', width: 1080, height: 800, alt: 'Bild 40' },
   { src: '/IMG_1180.JPG', width: 1080, height: 800, alt: 'Bild 41' },
@@ -72,15 +72,78 @@ const photos = [
   { src: '/IMG_3283.jpeg', width: 1080, height: 800, alt: 'Bild 68' },
   { src: '/IMG_6365.jpeg', width: 1080, height: 800, alt: 'Bild 69' },
   { src: '/IMG_6381.jpeg', width: 1080, height: 800, alt: 'Bild 70' },
-  { src: '/1C353144-767B-49AB-B98A-9F97C0EDA126.jpeg', width: 1080, height: 800, alt: 'Bild 71' },
-  { src: '/6BF1C120-3085-46C9-9038-07FBD667655A_1_105_c.jpeg', width: 1080, height: 800, alt: 'Bild 72' },
-  { src: '/36C8F745-A08E-4A3A-B60E-D7DC55704C71_4_5005_c.jpeg', width: 1080, height: 800, alt: 'Bild 73' },
-  { src: '/89B8C3FF-0C1C-4FFB-B484-A7144790CC71.jpeg', width: 1080, height: 800, alt: 'Bild 74' },
-  { src: '/82433700-C3E0-4B5D-8DC2-FE5CA0CE085D.jpeg', width: 1080, height: 800, alt: 'Bild 75' },
-  { src: '/BC0A67AB-292B-4938-A8ED-721E76E4041B_4_5005_c.jpeg', width: 1080, height: 800, alt: 'Bild 76' },
-  { src: '/C00A2687-6642-4404-93A2-9700731C6038.jpeg', width: 1080, height: 800, alt: 'Bild 77' },
-  { src: '/E81013CB-1DF2-49CB-8950-AC24E689B16A.jpeg', width: 1080, height: 800, alt: 'Bild 78' },
-  { src: '/F5D4DF08-70B8-438E-B472-DCF755822C43.jpeg', width: 1080, height: 800, alt: 'Bild 79' },
+  {
+    src: '/1C353144-767B-49AB-B98A-9F97C0EDA126.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 71',
+  },
+  {
+    src: '/6BF1C120-3085-46C9-9038-07FBD667655A_1_105_c.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 72',
+  },
+  {
+    src: '/36C8F745-A08E-4A3A-B60E-D7DC55704C71_4_5005_c.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 73',
+  },
+  {
+    src: '/89B8C3FF-0C1C-4FFB-B484-A7144790CC71.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 74',
+  },
+  {
+    src: '/82433700-C3E0-4B5D-8DC2-FE5CA0CE085D.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 75',
+  },
+  {
+    src: '/BC0A67AB-292B-4938-A8ED-721E76E4041B_4_5005_c.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 76',
+  },
+  {
+    src: '/C00A2687-6642-4404-93A2-9700731C6038.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 77',
+  },
+  {
+    src: '/E81013CB-1DF2-49CB-8950-AC24E689B16A.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 78',
+  },
+  {
+    src: '/F5D4DF08-70B8-438E-B472-DCF755822C43.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 79',
+  },
+  {
+    src: '/IMG_5386.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 80',
+  },
+  {
+    src: '/F5D4DF08-70B8-438E-B472-DCF755822C43.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 81',
+  },
+  {
+    src: '/8F4A09FF-1E3C-44E3-AFE3-F33320C4E1ED.jpeg',
+    width: 1080,
+    height: 800,
+    alt: 'Bild 81',
+  },
 ];
 
 export default photos;
